@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 
 /* Global Styles */
 *,
@@ -430,4 +431,5 @@ body.dark .feature-card h3 {
 }
 body.dark footer {
   background: #1e1e1e;
+
 }
