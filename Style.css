@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 
 /* Global Styles */
 *,
@@ -10,7 +11,7 @@
   transition: background 0.3s, color 0.3s;
 }
 body {
-  background: #f9fbff;
+  background: #f9ffff;
   color: #222222;
   line-height: 1.6;
 }
@@ -39,7 +40,7 @@ nav {
 nav .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #0f387d;
+  color: #1eb034;
 }
 nav ul {
   display: flex;
@@ -55,7 +56,7 @@ nav li a:hover {
 }
 .toggle-btn {
   border: none;
-  background: #0f387d;
+  background: #0f7d27;
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -63,7 +64,7 @@ nav li a:hover {
   font-weight: bold;
 }
 .toggle-btn:hover {
-  background: #416bff;
+  background: #41ff57;
 }
 
 /* Hero Section */
@@ -75,7 +76,7 @@ header {
   align-items: center;
   text-align: center;
   padding: 0 5%;
-  background: linear-gradient(120deg, #0f387d, #416bff);
+  background: linear-gradient(120deg, #0f387d, #6aff41);
   color: #fff;
 }
 header h1 {
@@ -178,8 +179,8 @@ section h2 {
   height: 100%;
   background: linear-gradient(
     135deg,
-    rgba(15, 56, 125, 0.8),
-    rgba(65, 107, 255, 0.7)
+    rgba(52, 125, 15, 0.8),
+    rgba(65, 255, 103, 0.7)
   );
   background-size: 200% 200%;
   animation: gradientMove 6s ease infinite;
@@ -354,20 +355,20 @@ section h2 {
   padding: 0.8rem;
   border-radius: 25px;
   border: none;
-  background: #0f387d;
+  background: #36bc11;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
 }
 .contact button:hover {
-  background: #416bff;
+  background: #4bff41;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 2rem;
-  background: #0f387d;
+  background: #117d0f;
   color: #fff;
 }
 
